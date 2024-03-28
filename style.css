@@ -1,0 +1,38 @@
+body{
+    background-color: dodgerblue;
+}
+
+h1{
+    color: black;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#showsketch{
+    float: right;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: animationCanvas;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+p{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+@keyframes animationCanvas{
+    from{
+        box-shadow: 1px 1px 38px black;
+    }
+    to{
+        box-shadow: 1px 1px 38px white;
+    }
+}
